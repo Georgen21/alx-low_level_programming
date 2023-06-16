@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - random number to the variable each time it is executed and prints
+ * main - random number
  * Return: 0
  */
 int main(void)
