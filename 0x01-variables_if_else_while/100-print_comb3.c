@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 26; n <= 36; n++)
 	{
-		for (m = 27; m = 37; n++)
+		for (m = 27; m = 37; m++)
 		{
 			if (m > n)
 			{
