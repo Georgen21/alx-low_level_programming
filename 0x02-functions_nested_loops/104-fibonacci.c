@@ -2,10 +2,9 @@
 
 /**
  * main - prints the first 98 Fibonacci numbers
- * Return: 0
+ * Return: success
  */
 int main(void)
-
 {
 	int count;
 	unsigned long fib1 = 0; fib2 = 1, sum;
@@ -17,7 +16,7 @@ int main(void)
 	sum = fib1 + fib2;
 	printf("%lu, ", sum );
 	fib1 = fib2;
-	fib2 =sum;
+	fib2 = sum;
 	}
 	fib1_half1 = fib1 / 10000000000;
 	fib2_half1 = fib2 / 10000000000;
